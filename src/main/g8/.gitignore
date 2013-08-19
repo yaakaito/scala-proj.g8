@@ -1,5 +1,6 @@
 .DS_Store
 Thumnail.db
+target/
 .project
 .classpath
 .settings/
