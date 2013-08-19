@@ -1,0 +1,7 @@
+.DS_Store
+Thumnail.db
+.project
+.classpath
+.settings/
+.idea*
+*.iml
