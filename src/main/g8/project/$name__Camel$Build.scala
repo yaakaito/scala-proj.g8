@@ -6,7 +6,10 @@ object $name;format="Camel"$Build extends Build {
   lazy val $name;format="camel"$ = Project(
     id = "$name;format="norm"$",
     base = file("."),
-    settings = Project.defaultSettings ++ Seq(
+    settings = Project.defaultSettings
+    ++ assemblySettings
+    ++ net.virtualvoid.sbt.graph.Plugin.graphSettings
+    ++ Seq(
       name := "$name$",
       organization := "$organization$",
       version := "$version$",
